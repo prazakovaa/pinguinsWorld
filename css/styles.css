@@ -1,3 +1,36 @@
+
 header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: -20px;
     background-image: url("../img/header.jpg");
+    padding: 2%;
+    color: aliceblue
+}
+
+header h1 {
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a :hover {
+    color:rgb(45, 85, 119);
+    font-size: 20px;
+}
+
+a :visited {
+    color:rgb(177, 212, 243)
+}
+
+body {
+    background-color: rgb(220, 238, 255);
+}
+
+footer {
+    margin: 2%;
+    font-size: 20px;
+    padding: 2%;
+    background-color: rgb(177, 212, 243);
 }

@@ -1,0 +1,21 @@
+Zadání:
+1. Stáhněte si předvytvořený HTML soubor, zvolte vhodné uspořádání složek.
+2. HTML soubor upravte: Zkontrolujte, zda je v HTML souboru vše správně,
+			předejte navigaci, 
+                        rozdělte dva články na dvě samostatné html stránkykteré na sebe budou vzájemně odkazovat,
+                        přidejte k jednotlivým stránkám obrázky,
+                        vytvořte index.html
+3. Vytvořte CSS soubor, který bude pro všechny vzniklé strany stejný:
+	a. Základní Styly:
+		Nastavte barvu pozadí stránky. V pozadí záhlaví bude obrázek.
+		Změňte barvu textu a písma.
+		Změňte barvu odkazů a definujte odlišné barvy pro odkazy v různých stavech (například běžný stav, stav při najetí myší, navštívený odkaz).
+	b. Formátování Textu:
+		Nastavte odrážky nebo číslování pro seznamy.
+		Zkuste různé velikosti písma pro různé části stránky (nadpisy, odstavce, atd.).
+	c. Rozložení Stránky:
+		Upravte šířku a výšku záhlaví, zápatí a obsahu stránky.
+		Změňte zarovnání prvků na stránce (vlevo, vpravo, střed).
+4. Ověřte si, jestli máte stránky validní.
+5. Vše bude vloženo na GitHub
+Bonus: Zprovozněte GitHubPages, odkaz vložte do popisu projektu na GitHubu.

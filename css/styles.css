@@ -1,3 +1,4 @@
+/*header*/
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url("../img/header2.jpg");
@@ -50,6 +51,7 @@ header a:visited {
     
 }
 
+/*main*/
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgb(99, 141, 191);
@@ -59,8 +61,9 @@ h2 {
 
 p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 30px;
     margin-top: 40px;
+    margin-left: 30px;
+
 }
 
 menu {
@@ -90,6 +93,7 @@ img {
     width: 20em;
 }
 
+/*footer*/
 footer {
     text-align: right;
     margin: -8px;

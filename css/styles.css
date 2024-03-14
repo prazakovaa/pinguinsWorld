@@ -1,36 +1,106 @@
-
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: -20px;
-    background-image: url("../img/header.jpg");
-    padding: 2%;
-    color: aliceblue
+    background-image: url("../img/header2.jpg");
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+    margin: -8px;
 }
+
 
 header h1 {
+    margin-top: -1%;
     font-size: 50px;
+    text-align: center;
 }
-a {
+
+header p {
+    margin-top: -2%;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 5%;
+    list-style-type: none;
+}
+
+header a {
+    border: 1px solid aliceblue;
+    background-color: rgb(177, 212, 243);
+    padding: 5px;
     text-decoration: none;
-    color: aliceblue;
+    color:aliceblue;
 }
 
-a :hover {
-    color:rgb(45, 85, 119);
-    font-size: 20px;
+
+header a:hover {
+    color:rgb(110, 127, 153);
+    border: 1px solid rgb(110, 127, 153);
+    font-size: 17px;
+    transition: 0.2s;
 }
 
-a :visited {
-    color:rgb(177, 212, 243)
+header a:visited {
+    background-color:rgb(166, 189, 223);
+    
 }
 
-body {
-    background-color: rgb(220, 238, 255);
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(99, 141, 191);
+    margin: 2%;
+    padding-top: 20px;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+menu {
+    margin-bottom: 5%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a.home {
+    border: 3px double aliceblue;
+}
+
+a.home:hover{
+    color:rgb(110, 127, 153);
+    border: 3px double rgb(110, 127, 153);
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+img {
+    padding: 38%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    height: auto;
+    width: 20em;
 }
 
 footer {
-    margin: 2%;
-    font-size: 20px;
-    padding: 2%;
-    background-color: rgb(177, 212, 243);
+    text-align: right;
+    margin: -8px;
+    padding-top: 10px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgb(110, 127, 153);
+    color: aliceblue;
+}
+
+footer p {
+    border-top: 1px solid aliceblue;
+    padding-top: 10px;
 }
